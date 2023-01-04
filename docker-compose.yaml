@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+
+  latest:
+    image: tmvdl/python:latest
+    build: './src/latest'
