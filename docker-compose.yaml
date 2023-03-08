@@ -5,3 +5,7 @@ services:
   latest:
     image: tmvdl/python:latest
     build: './src/latest'
+
+  django:
+    image: tmvdl/python:django
+    build: './src/django'
