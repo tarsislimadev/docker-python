@@ -9,3 +9,7 @@ services:
   django:
     image: tmvdl/python:django
     build: './src/django'
+
+  flask:
+    image: tmvdl/python:flask
+    build: './src/flask'
