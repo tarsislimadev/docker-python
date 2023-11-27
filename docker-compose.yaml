@@ -13,3 +13,7 @@ services:
   flask:
     image: tmvdl/python:flask
     build: './src/flask'
+
+  freeze:
+    image: tmvdl/python:freeze
+    build: './src/freeze'
