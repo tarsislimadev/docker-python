@@ -17,3 +17,7 @@ services:
   freeze:
     image: tmvdl/python:freeze
     build: './src/freeze'
+
+  flet:
+    image: tmvdl/python:flet
+    build: './src/flet'
