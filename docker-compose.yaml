@@ -21,3 +21,7 @@ services:
   flet:
     image: tmvdl/python:flet
     build: './src/flet'
+
+  openai:
+    image: tmvdl/python:openai
+    build: './src/openai'
