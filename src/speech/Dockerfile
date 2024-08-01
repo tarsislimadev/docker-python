@@ -1,4 +1,4 @@
-FROM python:3.12
+FROM python:alpine
 
 RUN python -m pip install vosk
 
