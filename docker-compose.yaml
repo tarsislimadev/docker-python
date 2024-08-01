@@ -25,3 +25,7 @@ services:
   openai:
     image: tmvdl/python:openai
     build: './src/openai'
+
+  speech:
+    image: tmvdl/python:speech
+    build: './src/speech'
