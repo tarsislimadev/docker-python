@@ -25,15 +25,11 @@ Where to file issues:
 
 ```Dockerfile
 FROM tmvdl/python
-
 WORKDIR /app
-
 COPY . .
-
 CMD python app.py
 ```
 
 ## License
 
 [MIT](LICENSE)
-
